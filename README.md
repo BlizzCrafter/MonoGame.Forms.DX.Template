@@ -1,1 +1,1 @@
-MonoGame.Forms.DX.VSIX
+- GitHub: https://github.com/BlizzCrafter/MonoGame.Forms
