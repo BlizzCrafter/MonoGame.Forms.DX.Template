@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" ?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="MonoGame.Forms.Templates.eb7ef74e-32a1-4b7b-bf7d-f07d0d8d74d5" Version="1.1" Language="en-US" Publisher="BlizzCrafter" />
+        <DisplayName>MonoGame.Forms.Templates</DisplayName>
+        <Description xml:space="preserve">Contains all the templates available for MonoGame.Forms.</Description>
+        <MoreInfo>https://github.com/BlizzCrafter/MonoGame.Forms</MoreInfo>
+        <GettingStartedGuide>https://github.com/BlizzCrafter/MonoGame.Forms</GettingStartedGuide>
+        <Icon>Logo.ico</Icon>
+        <PreviewImage>Logo_Shadow_256.png</PreviewImage>
+        <Tags>WindowsForms MonoGame MonoGameForms Editor Windows</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0,17.0)">
+            <ProductArchitecture>x86</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5.1,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,18.0)" DisplayName="Visual Studio-Kern-Editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\CSharp\MonoGame.Forms\MonoGameControl.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="MonoGame.Forms.DX" d:TargetPath="|MonoGame.Forms.DX;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    </Assets>
+</PackageManifest>
