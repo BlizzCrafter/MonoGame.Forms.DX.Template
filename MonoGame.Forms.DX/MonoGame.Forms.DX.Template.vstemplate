@@ -36,7 +36,7 @@
     <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
 </WizardExtension>
 <WizardData>
-    <packages repository="extension" repositoryId="MonoGame.Forms.Templates.eb7ef74e-32a1-4b7b-bf7d-f07d0d8d74d5">
+    <packages repository="extension" repositoryId="MonoGame.Forms.Templates.45015dd5-7ff4-4d60-9646-55aaa8186aa8">
       <package id="MonoGame.Forms.DX" version="3.0.0" />
     </packages>
 </WizardData>
