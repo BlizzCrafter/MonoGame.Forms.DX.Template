@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame.Forms.DX", "MonoGa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTimeControl", "GameTimeControl\GameTimeControl.csproj", "{21365D3B-D808-49B1-A0B8-E4B577908548}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThriftyControl", "ThriftyControl\ThriftyControl.csproj", "{A1621206-5593-446B-B857-2061C6013062}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,14 @@ Global
 		{21365D3B-D808-49B1-A0B8-E4B577908548}.Release|Any CPU.Build.0 = Release|Any CPU
 		{21365D3B-D808-49B1-A0B8-E4B577908548}.Release|x86.ActiveCfg = Release|x86
 		{21365D3B-D808-49B1-A0B8-E4B577908548}.Release|x86.Build.0 = Release|x86
+		{A1621206-5593-446B-B857-2061C6013062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1621206-5593-446B-B857-2061C6013062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1621206-5593-446B-B857-2061C6013062}.Debug|x86.ActiveCfg = Debug|x86
+		{A1621206-5593-446B-B857-2061C6013062}.Debug|x86.Build.0 = Debug|x86
+		{A1621206-5593-446B-B857-2061C6013062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1621206-5593-446B-B857-2061C6013062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1621206-5593-446B-B857-2061C6013062}.Release|x86.ActiveCfg = Release|x86
+		{A1621206-5593-446B-B857-2061C6013062}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
