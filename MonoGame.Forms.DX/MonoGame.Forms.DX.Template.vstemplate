@@ -22,6 +22,7 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       <ProjectItem>Form1.cs</ProjectItem>
       <ProjectItem>Form1.Designer.cs</ProjectItem>
+	  <ProjectItem>Controls\SampleControl.cs</ProjectItem>
 	  <ProjectItem>Program.cs</ProjectItem>
 	  <ProjectItem>MonoGame.Forms.DX.Template.ico</ProjectItem>
 	  <ProjectItem>Properties\Resources.resx</ProjectItem>
