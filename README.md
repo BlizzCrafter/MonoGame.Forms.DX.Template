@@ -1,1 +1,2 @@
 - GitHub: https://github.com/BlizzCrafter/MonoGame.Forms
+- Marketplace: https://marketplace.visualstudio.com/items?itemName=BlizzCrafter.MonoGameForms1337
