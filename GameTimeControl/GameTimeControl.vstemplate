@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>GameTimeControl</Name>
+	  <Description>Adds a new MonoGameControl to the project. It provides a real game loop (GameTime) and a place to draw. After building your project it becomes selectable from the ToolBox during design time. Drag'n Drop it to a Windows Forms Control and dock it to the center to make it fill all the available space of this control.</Description>
+    <Icon>GameTimeControl.ico</Icon>
+    <TemplateID>5341458c-0225-4ef5-ad53-cfdeee579315</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>GameTimeControl.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+	  <ProjectItem>GameTimeControl.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

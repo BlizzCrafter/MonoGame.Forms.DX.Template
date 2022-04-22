@@ -49,10 +49,6 @@
     <Compile Include="MonoGame.Forms.DX.VSIXPackage.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ItemTemplates\CSharp\MonoGame.Forms\MonoGameControl.zip">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="packages\MonoGame.Forms.DX.3.0.0.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -78,6 +74,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GameTimeControl\GameTimeControl.csproj">
+      <Project>{21365D3B-D808-49B1-A0B8-E4B577908548}</Project>
+      <Name>GameTimeControl</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\MonoGame.Forms.DX\MonoGame.Forms.DX.csproj">
       <Project>{751304F7-815B-4EE1-B026-10139579CE7F}</Project>
       <Name>MonoGame.Forms.DX</Name>
