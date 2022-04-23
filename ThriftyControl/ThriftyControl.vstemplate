@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Add a ThriftyControl without GameLoop-Support.</Name>
-    <Description>ThriftyControl</Description>
+    <Name>ThriftyControl</Name>
+    <Description>Add a ThriftyControl without GameLoop-Support.</Description>
     <Icon>ThriftyControl.ico</Icon>
     <TemplateID>ac68ae2d-10fd-4fc8-ac3b-5c470b7cdaea</TemplateID>
     <ProjectType>CSharp</ProjectType>
